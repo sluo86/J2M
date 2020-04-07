@@ -185,7 +185,7 @@
 		input = input.replace(/~~(.*?)~~/g, '-$1-');
 
 		input = input.replace(/!\[[^\]]+\]\(([^)]+)\)/g, '!$1!');
-		input = input.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '[$1|$2]');
+		input = input.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '[$1]');
 		input = input.replace(/<([^>]+)>/g, '[$1]');
 
 		// restore extracted sections
